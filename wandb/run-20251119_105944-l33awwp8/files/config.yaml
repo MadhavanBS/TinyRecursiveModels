@@ -1,0 +1,125 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        code_path: source-Sudoku-extreme-1k-aug-1000-ACT-torch-pretrain.py
+        e:
+            a50zdiusmcpkdllahys27grnf4atdkry:
+                args:
+                    - arch=trm
+                    - data_paths=[data/sudoku-extreme-1k-aug-1000]
+                    - evaluators=[]
+                    - epochs=8000
+                    - eval_interval=2000
+                    - lr=5e-4
+                    - puzzle_emb_lr=1e-4
+                    - weight_decay=1.0
+                    - puzzle_emb_weight_decay=1.0
+                    - arch.L_layers=2
+                    - arch.H_cycles=3
+                    - arch.L_cycles=6
+                    - +run_name=pretrain_att_sudoku_l40s_first
+                    - ema=True
+                codePath: pretrain.py
+                codePathLocal: pretrain.py
+                email: madhavanbs1904@gmail.com
+                executable: /home/hice1/mbalasub33/scratch/trm_env/bin/python
+                git:
+                    commit: d5dd33cf714bc93c45edbf23a67d096ee98e3013
+                    remote: https://github.com/MadhavanBS/TinyRecursiveModels.git
+                host: atl1-1-03-004-25-0.pace.gatech.edu
+                os: Linux-5.14.0-570.37.1.el9_6.x86_64-x86_64-with-glibc2.34
+                program: /storage/ice1/3/5/mbalasub33/TinyRecursiveModels/pretrain.py
+                python: CPython 3.10.19
+                root: /storage/ice1/3/5/mbalasub33/TinyRecursiveModels
+                startedAt: "2025-11-19T15:59:44.480730Z"
+                writerId: a50zdiusmcpkdllahys27grnf4atdkry
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 50
+            "2":
+                - 1
+                - 50
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.10.19
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
+arch:
+    value:
+        H_cycles: 3
+        H_layers: 0
+        L_cycles: 6
+        L_layers: 2
+        expansion: 4
+        forward_dtype: bfloat16
+        halt_exploration_prob: 0.1
+        halt_max_steps: 16
+        hidden_size: 512
+        loss:
+            loss_type: stablemax_cross_entropy
+            name: losses@ACTLossHead
+        mlp_t: false
+        name: recursive_reasoning.trm@TinyRecursiveReasoningModel_ACTV1
+        no_ACT_continue: true
+        num_heads: 8
+        pos_encodings: rope
+        puzzle_emb_len: 16
+        puzzle_emb_ndim: 512
+beta1:
+    value: 0.9
+beta2:
+    value: 0.95
+checkpoint_every_eval:
+    value: true
+checkpoint_path:
+    value: checkpoints/Sudoku-extreme-1k-aug-1000-ACT-torch/pretrain_att_sudoku_l40s_first
+data_paths:
+    value:
+        - data/sudoku-extreme-1k-aug-1000
+data_paths_test:
+    value: []
+ema:
+    value: true
+ema_rate:
+    value: 0.999
+epochs:
+    value: 8000
+eval_interval:
+    value: 2000
+eval_save_outputs:
+    value: []
+evaluators:
+    value: []
+freeze_weights:
+    value: false
+global_batch_size:
+    value: 768
+load_checkpoint:
+    value: null
+lr:
+    value: 0.0005
+lr_min_ratio:
+    value: 1
+lr_warmup_steps:
+    value: 2000
+min_eval_interval:
+    value: 0
+project_name:
+    value: Sudoku-extreme-1k-aug-1000-ACT-torch
+puzzle_emb_lr:
+    value: 0.0001
+puzzle_emb_weight_decay:
+    value: 1
+run_name:
+    value: pretrain_att_sudoku_l40s_first
+seed:
+    value: 0
+weight_decay:
+    value: 1

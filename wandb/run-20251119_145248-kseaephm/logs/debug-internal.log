@@ -1,0 +1,10 @@
+{"time":"2025-11-19T14:52:55.61791287-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-11-19T14:52:55.713360564-05:00","level":"INFO","msg":"stream: created new stream","id":"kseaephm"}
+{"time":"2025-11-19T14:52:55.714253639-05:00","level":"INFO","msg":"handler: started","stream_id":"kseaephm"}
+{"time":"2025-11-19T14:52:55.715954405-05:00","level":"INFO","msg":"sender: started","stream_id":"kseaephm"}
+{"time":"2025-11-19T14:52:55.715956827-05:00","level":"INFO","msg":"writer: started","stream_id":"kseaephm"}
+{"time":"2025-11-19T14:52:55.722226787-05:00","level":"INFO","msg":"stream: started","id":"kseaephm"}
+{"time":"2025-11-19T15:06:15.718501906-05:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":7120}
+{"time":"2025-11-19T15:06:17.043111195-05:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":15}
+{"time":"2025-11-19T15:23:45.722376018-05:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":17664}
+{"time":"2025-11-19T15:23:48.479214953-05:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":27}

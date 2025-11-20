@@ -1,0 +1,33 @@
+{
+  "os": "Linux-5.14.0-570.37.1.el9_6.x86_64-x86_64-with-glibc2.34",
+  "python": "CPython 3.10.19",
+  "startedAt": "2025-11-19T15:59:44.480730Z",
+  "args": [
+    "arch=trm",
+    "data_paths=[data/sudoku-extreme-1k-aug-1000]",
+    "evaluators=[]",
+    "epochs=8000",
+    "eval_interval=2000",
+    "lr=5e-4",
+    "puzzle_emb_lr=1e-4",
+    "weight_decay=1.0",
+    "puzzle_emb_weight_decay=1.0",
+    "arch.L_layers=2",
+    "arch.H_cycles=3",
+    "arch.L_cycles=6",
+    "+run_name=pretrain_att_sudoku_l40s_first",
+    "ema=True"
+  ],
+  "program": "/storage/ice1/3/5/mbalasub33/TinyRecursiveModels/pretrain.py",
+  "codePath": "pretrain.py",
+  "codePathLocal": "pretrain.py",
+  "git": {
+    "remote": "https://github.com/MadhavanBS/TinyRecursiveModels.git",
+    "commit": "d5dd33cf714bc93c45edbf23a67d096ee98e3013"
+  },
+  "email": "madhavanbs1904@gmail.com",
+  "root": "/storage/ice1/3/5/mbalasub33/TinyRecursiveModels",
+  "host": "atl1-1-03-004-25-0.pace.gatech.edu",
+  "executable": "/home/hice1/mbalasub33/scratch/trm_env/bin/python",
+  "writerId": "a50zdiusmcpkdllahys27grnf4atdkry"
+}
